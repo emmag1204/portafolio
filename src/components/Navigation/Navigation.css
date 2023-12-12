@@ -1,0 +1,72 @@
+.principal {
+    background-color: #3C4052;
+    font-family: 'Roboto Slab', serif;
+    color: #E6E6ED;
+    padding: 0;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marca {
+    text-align: left;
+    margin-left: 4rem;
+    flex: 1;
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    color: #E6E6ED;
+    text-decoration: none;
+}
+
+.home-link h1 {
+    margin-left: 2rem;
+    font-size: 2rem; 
+}
+
+.informacion {
+    font-weight: bold;
+    margin: 2.5rem;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: #E6E6ED;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.informacion a:hover {
+    background-color: #E6E6ED;
+    color: #3C4052;
+}
+
+a {
+    text-decoration: none;
+    color: #E6E6ED;
+}
+
+@media (max-width: 768px) {
+    .marca{
+        display: none;
+    }
+    
+    .presentacion, .informacion {
+        padding: 0.5rem; 
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .presentacion {
+        padding-top: 2rem;
+    }
+
+    .principal {
+        flex-direction: column;
+    }
+
+}
