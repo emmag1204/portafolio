@@ -15,11 +15,9 @@ function Hero() {
                     </div>
                     <div className='text-container'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut 
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                            in culpa qui officia deserunt mollit anim id est laborum.
+                        Hi! 👋 I'm a Computer Science Student 👨🏾‍💻 at Tecnológico de Monterrey in Zapopan, Jalisco. 
+                        I am a passionate person about programming who is always looking for new ways to improve myself by learning and taking courses to stay up
+                        to date on the latest technologies.
                         </p>
                     </div>
                 </div>
@@ -31,7 +29,7 @@ function Hero() {
                 <Carousel />
             </div>
             <footer>
-                Built with ❤️ using React.
+                Built with ❤️ using React and Django3.
             </footer>
         </div>
 
