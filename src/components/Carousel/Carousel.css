@@ -40,7 +40,7 @@
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    padding: 4.5rem;
+    padding: 2.5rem;
     position: absolute;
     bottom: 0; 
     width: 80%;
@@ -64,8 +64,6 @@
 .carousel-live, .carousel-code {
     color: #3C4052;
     text-align: center;
-    padding: 0.8rem 1rem;
-    margin-top: 1rem;
     border-radius: 1rem;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -88,18 +86,18 @@
 
 .carousel-dots {
     position: absolute;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
 
 .carousel-dot {
-    width: 10px;
-    height: 10px;
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 50%;
     background: #808085;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     cursor: pointer;
 }
 

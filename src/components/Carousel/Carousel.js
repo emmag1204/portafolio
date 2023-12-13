@@ -51,7 +51,7 @@ function Carousel() {
                 <h3>{slide.title}</h3>
                 <p>{slide.description}</p>
                 <div className='carousel-buttons'>
-                  <a className='carousel-live' target='_blank' href={slide.youtubeResourceID}>
+                  <a className='carousel-live' target='_blank' rel='noopener noreferrer' href={slide.youtubeResourceID}>
                     <div>
                     <p>LIVE DEMO</p>
                     <svg height="38px" width="38px" viewBox="0 0 142.448 142.448" fill='#3C4052'>
@@ -66,7 +66,7 @@ function Carousel() {
                     </svg>
                     </div>
                   </a>
-                  <a className='carousel-code' target='_blank' href={slide.url}>
+                  <a className='carousel-code' target='_blank' rel='noopener noreferrer' href={slide.url}>
                     <div>
                     <p>SOURCE CODE</p>
                     <svg width="38px" height="38px" viewBox="0 0 24 24" fill='#3C4052'>
