@@ -40,15 +40,10 @@
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    padding: 4.5rem;
     position: absolute;
-    margin: 21rem;
+    bottom: 0; 
     width: 80%;
-}
-
-.carousel-content p {
-   margin-right: 6rem;
-   margin-left: 6rem;
-   margin-bottom: 0;
 }
 
 .carousel-buttons {
@@ -57,19 +52,18 @@
 }
 
 .carousel-prev, .carousel-next {
-    margin: 4rem 7rem;
-    padding: 1rem 1rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.carousel-prev:hover, .carousel-next:hover {
-    background-color: #808085;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background: none;
+    border: none;
     color: #202229;
-    border-radius: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s;
 }
 
 .carousel-live, .carousel-code {
     color: #3C4052;
+    text-align: center;
     padding: 0.8rem 1rem;
     margin-top: 1rem;
     border-radius: 1rem;
@@ -88,8 +82,29 @@
     transform: translateY(-50%);
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     padding: 0 2rem;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #808085;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background: #202229;
 }
 
 @media (max-width: 768px) {
@@ -102,25 +117,32 @@
         max-height: 40%;
     }
 
+    .carousel-content {
+        padding: 5rem;
+    }
+
     .carousel-content h3 {
-        font-size: 1.2rem; 
         text-align: center;
     }
 
-    .carousel-btn.prev{
-        padding-left: 0rem;
+    .carousel-content p {
+        font-size: 0.8rem; 
     }
 
-    .carousel-btn.next {
-        padding-right: 3rem;
+    .carousel-prev{
+        margin: 0rem;
+    }
+
+    .carousel-next {
+        margin: 4rem;
     }
 
     .carousel-dots {
-        bottom: 1.5rem;
+        bottom: 1rem;
     }
 
-    .carousel-video {
-        font-size: 1rem; 
+    .carousel-live, .carousel-code {
+        font-size: 0.8rem; 
     }
 
     .carousel-wrapper {

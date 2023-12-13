@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import './Carousel.css';
 import API from '../ENV/API';
 
@@ -27,6 +26,10 @@ function Carousel() {
   }, []);
 
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const goToSlide = (index) => {
+    setCurrentIndex(index);
+  };
 
   const goToPrevSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? projects.length - 1 : prevIndex - 1));
@@ -58,8 +61,17 @@ function Carousel() {
         )}
       </div>
       <div className='carousel-navigation'>
-        <button className='carousel-prev' onClick={goToPrevSlide}><FaArrowLeft /></button>
-        <button className='carousel-next' onClick={goToNextSlide}><FaArrowRight /></button>
+        <button className='carousel-prev' onClick={goToPrevSlide}>&larr;</button>
+        <button className='carousel-next' onClick={goToNextSlide}>&rarr;</button>
+      </div>
+      <div className='carousel-dots'>
+        {projects.map((_, index) => (
+          <div
+            key={index}
+            className={`carousel-dot ${index === currentIndex ? 'active' : ''}`}
+            onClick={() => goToSlide(index)}
+          />
+        ))}
       </div>
     </div>
   );
