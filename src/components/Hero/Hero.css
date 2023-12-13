@@ -41,11 +41,10 @@ body {
 }
 
 .picture-me img {
-    max-width: 550px;
     border-radius: 5rem;
     animation: fadeIn 1s ease-in-out forwards;
-    width: 400px;
-    height: 370px;
+    width: 23rem;
+    height: 21rem;
 }
 
 @keyframes fadeIn {
