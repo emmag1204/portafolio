@@ -15,9 +15,10 @@ function Hero() {
                     </div>
                     <div className='text-container'>
                         <p>
-                        Hi! 👋 I'm a Computer Science Student 👨🏾‍💻 at Tecnológico de Monterrey in Zapopan, Jalisco. 
-                        I am a passionate person about programming who is always looking for new ways to improve myself by learning and taking courses to stay up
-                        to date on the latest technologies.
+                        Hi! 👋 I'm a Computer Science Student 👨🏾‍💻 at Tecnológico de Monterrey in Zapopan, Jalisco 🇲🇽. 
+                        I am a passionate person interested in full-stack development and artificial intelligence 🧠 
+                        who is always looking for new ways to improve myself 💪🏽 by learning and taking courses to stay up
+                        to date on the latest technologies 💻.
                         </p>
                     </div>
                 </div>

@@ -24,7 +24,7 @@ body {
 }
 
 .about-me h1 {
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 3rem;
     opacity: 0;
@@ -37,7 +37,7 @@ body {
     text-align: justify;
     animation: fadeIn 1s ease-in-out forwards; 
     margin: 0 auto;
-    width: 65%;
+    width: 60%;
 }
 
 .picture-me img {
