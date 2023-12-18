@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import Carousel from '../Carousel/Carousel';
-import emmanuel from './img/img-hero.png';
+import emmanuel from './img/img-hero.webp';
 
 function Hero() {
     return (
@@ -16,7 +16,7 @@ function Hero() {
                     <div className='text-container'>
                         <p>
                         Hi! 👋 I'm a Computer Science Student 👨🏾‍💻 at Tecnológico de Monterrey in Zapopan, Jalisco 🇲🇽. 
-                        I am a passionate person interested in full-stack development and artificial intelligence 🧠 
+                        Passionate about full-stack development and artificial intelligence 🧠 
                         who is always looking for new ways to improve myself 💪🏽 by learning and taking courses to stay up
                         to date on the latest technologies 💻.
                         </p>
